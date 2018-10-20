@@ -101,7 +101,7 @@ class ReactNativeModal extends Component {
   state = {
     showContent: true,
     isVisible: false,
-    deviceWidth: Dimensions.get("window").width,
+    deviceWidth: Dimensions.get("window").width+60,
     deviceHeight: Dimensions.get("window").height,
     isSwipeable: this.props.swipeDirection ? true : false,
     pan: null
